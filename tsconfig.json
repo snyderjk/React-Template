@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "jsx": "react",
+    "moduleResolution": "node"
+  },
+  "types": [
+    "node"
+  ],
+  "typeRoots": [
+    "node_modules/@types"
+  ],
+  "exclude": [
+    "node_modules",
+    "wwwroot",
+    "dist",
+    "indexProd.html"
+  ]
+}
